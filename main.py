@@ -36,3 +36,5 @@ if len(item) != 0:
 
         cost = round(307/float(price),2)
         st.write(str(cost) + " " + itemName+"s!")
+st.markdown(
+    """<a href="https://andrewgao.dev/">Made by Andrew Gao</a>""", unsafe_allow_html=True)
