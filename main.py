@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit_analytics
 
-with streamlit_analytics.track():
+with streamlit_analytics.track(unsafe_password="happygalaxy2021"):
     st.title("The Insulindex")
     st.write("Find out how much of anything you could buy with one vial of Humalog 50/50 insulin!")
     st.write("Inspired by Senator Amy Klobuchar's book, ANTITRUST and the Big Mac Economic Index.")
